@@ -49,7 +49,7 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
 
-            - name: Install Android SDK
+      - name: Install Android SDK
         env:
           ANDROID_HOME: /usr/local/lib/android/sdk
         run: |
